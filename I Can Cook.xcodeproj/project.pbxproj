@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A092A5A1FD9B24F00B0288B /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A092A591FD9B24F00B0288B /* RecipeDetailsViewController.swift */; };
+		1A3707781FD9B525002870FD /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3707771FD9B525002870FD /* CoreDataStack.swift */; };
+		1A37077B1FD9B582002870FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A3707791FD9B582002870FD /* Model.xcdatamodeld */; };
+		1A37077E1FD9BA55002870FD /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37077C1FD9BA55002870FD /* Recipe+CoreDataClass.swift */; };
+		1A37077F1FD9BA55002870FD /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37077D1FD9BA55002870FD /* Recipe+CoreDataProperties.swift */; };
+		1A3707831FDA8BF2002870FD /* GrandCentralDispatchPerformUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3707821FDA8BF2002870FD /* GrandCentralDispatchPerformUpdates.swift */; };
+		1A78791B1FDB451100A633BC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7879191FDB451100A633BC /* Launch Screen.storyboard */; };
+		1A7879201FDB9F7500A633BC /* YoutubeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78791F1FDB9F7500A633BC /* YoutubeClient.swift */; };
+		1A7879221FDB9FCD00A633BC /* YoutubeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7879211FDB9FCD00A633BC /* YoutubeConstants.swift */; };
+		1A7879241FDC56A400A633BC /* YoutubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7879231FDC56A400A633BC /* YoutubeVideo.swift */; };
+		1A7879271FDCD57600A633BC /* YouTubeSearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7879261FDCD57600A633BC /* YouTubeSearchResultsTableViewController.swift */; };
+		1A7879291FDD1C7300A633BC /* YouTubeSearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7879281FDD1C7300A633BC /* YouTubeSearchResultsTableViewCell.swift */; };
+		1A78792B1FDD301200A633BC /* YouTubeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78792A1FDD301200A633BC /* YouTubeVideoViewController.swift */; };
+		1A78792F1FDD438000A633BC /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A78792E1FDD438000A633BC /* YTPlayerView.m */; };
+		1A7879341FDD525D00A633BC /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A7879331FDD525D00A633BC /* Assets.bundle */; };
+		1A7879381FDD5E2A00A633BC /* AddToYourRecipesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7879371FDD5E2A00A633BC /* AddToYourRecipesButton.swift */; };
+		1A90011C1FD8A884004314F4 /* RecipeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A90011B1FD8A884004314F4 /* RecipeCollectionViewController.swift */; };
+		1A90011E1FD8B8C9004314F4 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A90011D1FD8B8C9004314F4 /* AddRecipeViewController.swift */; };
+		1AA3166D1FD753FA0036F6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3166C1FD753FA0036F6E3 /* AppDelegate.swift */; };
+		1AA316721FD753FA0036F6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA316701FD753FA0036F6E3 /* Main.storyboard */; };
+		1AA316741FD753FA0036F6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA316731FD753FA0036F6E3 /* Assets.xcassets */; };
+		1AA316841FD89D4E0036F6E3 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA316831FD89D4E0036F6E3 /* RecipeCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A092A591FD9B24F00B0288B /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
+		1A3707771FD9B525002870FD /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1A37077A1FD9B582002870FD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1A37077C1FD9BA55002870FD /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1A37077D1FD9BA55002870FD /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1A3707821FDA8BF2002870FD /* GrandCentralDispatchPerformUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandCentralDispatchPerformUpdates.swift; sourceTree = "<group>"; };
+		1A78791A1FDB451100A633BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "I Can Cook/Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1A78791F1FDB9F7500A633BC /* YoutubeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeClient.swift; sourceTree = "<group>"; };
+		1A7879211FDB9FCD00A633BC /* YoutubeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeConstants.swift; sourceTree = "<group>"; };
+		1A7879231FDC56A400A633BC /* YoutubeVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideo.swift; sourceTree = "<group>"; };
+		1A7879261FDCD57600A633BC /* YouTubeSearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		1A7879281FDD1C7300A633BC /* YouTubeSearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResultsTableViewCell.swift; sourceTree = "<group>"; };
+		1A78792A1FDD301200A633BC /* YouTubeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeVideoViewController.swift; sourceTree = "<group>"; };
+		1A78792C1FDD437F00A633BC /* I Can Cook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "I Can Cook-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A78792D1FDD438000A633BC /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		1A78792E1FDD438000A633BC /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		1A7879331FDD525D00A633BC /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		1A7879371FDD5E2A00A633BC /* AddToYourRecipesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToYourRecipesButton.swift; sourceTree = "<group>"; };
+		1A90011B1FD8A884004314F4 /* RecipeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewController.swift; sourceTree = "<group>"; };
+		1A90011D1FD8B8C9004314F4 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		1AA316691FD753FA0036F6E3 /* I Can Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Can Cook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA3166C1FD753FA0036F6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AA316711FD753FA0036F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AA316731FD753FA0036F6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA316781FD753FA0036F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA316831FD89D4E0036F6E3 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA316661FD753FA0036F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A78791E1FDB9F5F00A633BC /* YouTube Client */ = {
+			isa = PBXGroup;
+			children = (
+				1A78791F1FDB9F7500A633BC /* YoutubeClient.swift */,
+				1A7879211FDB9FCD00A633BC /* YoutubeConstants.swift */,
+				1A7879231FDC56A400A633BC /* YoutubeVideo.swift */,
+			);
+			path = "YouTube Client";
+			sourceTree = "<group>";
+		};
+		1A7879361FDD5B6600A633BC /* YouTube Player Helper Library */ = {
+			isa = PBXGroup;
+			children = (
+				1A78792D1FDD438000A633BC /* YTPlayerView.h */,
+				1A78792E1FDD438000A633BC /* YTPlayerView.m */,
+				1A78792C1FDD437F00A633BC /* I Can Cook-Bridging-Header.h */,
+				1A7879331FDD525D00A633BC /* Assets.bundle */,
+			);
+			name = "YouTube Player Helper Library";
+			sourceTree = "<group>";
+		};
+		1AA316601FD753FA0036F6E3 = {
+			isa = PBXGroup;
+			children = (
+				1AA3166B1FD753FA0036F6E3 /* I Can Cook */,
+				1AA3166A1FD753FA0036F6E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA3166A1FD753FA0036F6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA316691FD753FA0036F6E3 /* I Can Cook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA3166B1FD753FA0036F6E3 /* I Can Cook */ = {
+			isa = PBXGroup;
+			children = (
+				1AA3166C1FD753FA0036F6E3 /* AppDelegate.swift */,
+				1A3707821FDA8BF2002870FD /* GrandCentralDispatchPerformUpdates.swift */,
+				1AA316801FD878710036F6E3 /* Model */,
+				1AA316811FD878770036F6E3 /* View */,
+				1AA316821FD878850036F6E3 /* Controller */,
+				1AA316701FD753FA0036F6E3 /* Main.storyboard */,
+				1A7879191FDB451100A633BC /* Launch Screen.storyboard */,
+				1AA316731FD753FA0036F6E3 /* Assets.xcassets */,
+				1AA316781FD753FA0036F6E3 /* Info.plist */,
+				1A7879361FDD5B6600A633BC /* YouTube Player Helper Library */,
+			);
+			path = "I Can Cook";
+			sourceTree = "<group>";
+		};
+		1AA316801FD878710036F6E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A3707771FD9B525002870FD /* CoreDataStack.swift */,
+				1A78791E1FDB9F5F00A633BC /* YouTube Client */,
+				1A3707791FD9B582002870FD /* Model.xcdatamodeld */,
+				1A37077C1FD9BA55002870FD /* Recipe+CoreDataClass.swift */,
+				1A37077D1FD9BA55002870FD /* Recipe+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AA316811FD878770036F6E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AA316831FD89D4E0036F6E3 /* RecipeCollectionViewCell.swift */,
+				1A7879371FDD5E2A00A633BC /* AddToYourRecipesButton.swift */,
+				1A7879281FDD1C7300A633BC /* YouTubeSearchResultsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AA316821FD878850036F6E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A90011B1FD8A884004314F4 /* RecipeCollectionViewController.swift */,
+				1A90011D1FD8B8C9004314F4 /* AddRecipeViewController.swift */,
+				1A092A591FD9B24F00B0288B /* RecipeDetailsViewController.swift */,
+				1A7879261FDCD57600A633BC /* YouTubeSearchResultsTableViewController.swift */,
+				1A78792A1FDD301200A633BC /* YouTubeVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA316681FD753FA0036F6E3 /* I Can Cook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA3167B1FD753FA0036F6E3 /* Build configuration list for PBXNativeTarget "I Can Cook" */;
+			buildPhases = (
+				1AA316651FD753FA0036F6E3 /* Sources */,
+				1AA316661FD753FA0036F6E3 /* Frameworks */,
+				1AA316671FD753FA0036F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I Can Cook";
+			productName = "I Can Cook";
+			productReference = 1AA316691FD753FA0036F6E3 /* I Can Cook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AA316611FD753FA0036F6E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "James Dellinger";
+				TargetAttributes = {
+					1AA316681FD753FA0036F6E3 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1AA316641FD753FA0036F6E3 /* Build configuration list for PBXProject "I Can Cook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AA316601FD753FA0036F6E3;
+			productRefGroup = 1AA3166A1FD753FA0036F6E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA316681FD753FA0036F6E3 /* I Can Cook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA316671FD753FA0036F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7879341FDD525D00A633BC /* Assets.bundle in Resources */,
+				1A78791B1FDB451100A633BC /* Launch Screen.storyboard in Resources */,
+				1AA316741FD753FA0036F6E3 /* Assets.xcassets in Resources */,
+				1AA316721FD753FA0036F6E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA316651FD753FA0036F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A90011E1FD8B8C9004314F4 /* AddRecipeViewController.swift in Sources */,
+				1A3707831FDA8BF2002870FD /* GrandCentralDispatchPerformUpdates.swift in Sources */,
+				1A37077E1FD9BA55002870FD /* Recipe+CoreDataClass.swift in Sources */,
+				1A7879381FDD5E2A00A633BC /* AddToYourRecipesButton.swift in Sources */,
+				1A78792F1FDD438000A633BC /* YTPlayerView.m in Sources */,
+				1AA316841FD89D4E0036F6E3 /* RecipeCollectionViewCell.swift in Sources */,
+				1A37077F1FD9BA55002870FD /* Recipe+CoreDataProperties.swift in Sources */,
+				1A7879201FDB9F7500A633BC /* YoutubeClient.swift in Sources */,
+				1A90011C1FD8A884004314F4 /* RecipeCollectionViewController.swift in Sources */,
+				1A37077B1FD9B582002870FD /* Model.xcdatamodeld in Sources */,
+				1A7879241FDC56A400A633BC /* YoutubeVideo.swift in Sources */,
+				1A7879271FDCD57600A633BC /* YouTubeSearchResultsTableViewController.swift in Sources */,
+				1A3707781FD9B525002870FD /* CoreDataStack.swift in Sources */,
+				1A7879291FDD1C7300A633BC /* YouTubeSearchResultsTableViewCell.swift in Sources */,
+				1A78792B1FDD301200A633BC /* YouTubeVideoViewController.swift in Sources */,
+				1A092A5A1FD9B24F00B0288B /* RecipeDetailsViewController.swift in Sources */,
+				1AA3166D1FD753FA0036F6E3 /* AppDelegate.swift in Sources */,
+				1A7879221FDB9FCD00A633BC /* YoutubeConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A7879191FDB451100A633BC /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A78791A1FDB451100A633BC /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+		1AA316701FD753FA0036F6E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA316711FD753FA0036F6E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AA316791FD753FA0036F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AA3167A1FD753FA0036F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AA3167C1FD753FA0036F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Can Cook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Dellinger.I-Can-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "I Can Cook/I Can Cook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AA3167D1FD753FA0036F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Can Cook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Dellinger.I-Can-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "I Can Cook/I Can Cook-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA316641FD753FA0036F6E3 /* Build configuration list for PBXProject "I Can Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA316791FD753FA0036F6E3 /* Debug */,
+				1AA3167A1FD753FA0036F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA3167B1FD753FA0036F6E3 /* Build configuration list for PBXNativeTarget "I Can Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA3167C1FD753FA0036F6E3 /* Debug */,
+				1AA3167D1FD753FA0036F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A3707791FD9B582002870FD /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A37077A1FD9B582002870FD /* Model.xcdatamodel */,
+			);
+			currentVersion = 1A37077A1FD9B582002870FD /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AA316611FD753FA0036F6E3 /* Project object */;
+}
