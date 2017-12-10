@@ -1,12 +1,17 @@
 <img src="https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/nd003.png" alt="iOS Developer Nanodegree logo" height="70" >
 
-# Virtual Tourist App
+# Final Project: "I Can Cook" App
 
 ![Platform iOS](https://img.shields.io/badge/nanodegree-iOS-blue.svg)
 
-This repository contains the Virtual Tourist app project for the iOS Persistence and Core Data course in Udacity's iOS Nanodegree.
+This repository contains the final project app for Udacity's iOS Nanodegree.
 
-A concurrency-tested and completely thread-safe implementation, with the following user-friendly tweaks:
+"I Can Cook" provides a simple, user-friendly interface for creating, editing, and easily accessing all of your
+recipes. Think of it as recipe notebook for the smartphone era.
+
+On first-time app launch, a hint graphic shows the user how to add their first recipe:
+
+<img src="https://github.com/jamesdellinger/ios-nanodegree-virtual-tourist-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-11-22%20at%2011.56.27.png" height="400">
 
 1. Tapping "Edit" causes the map view to rise up, revealing the red bar underneath. Makes for greater similarity with how "Delete"
     indicators are revealed in other iOS elements, such as table views:
