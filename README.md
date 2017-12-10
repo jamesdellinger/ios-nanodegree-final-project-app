@@ -9,11 +9,15 @@ This repository contains the final project app for Udacity's iOS Nanodegree.
 "I Can Cook" provides a simple, user-friendly interface for creating, editing, and easily accessing all of your
 recipes. Think of it as recipe notebook for the smartphone era.
 
-On first-time app launch, a hint graphic shows the user how to add their first recipe:
+On first-time app launch, a friendly hint graphic shows the user how to add their first recipe:
 
 <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-08%20at%2013.40.39.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-08%20at%2014.17.28.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2015.29.21.png" height="400">
 
+Tapping "+" takes the user to a screen where they can enter their recipe's name, ingredients, preparation
+directions, as well as take a photo of their dish using their iPhone's camera, or choose a photo from their
+photo album:
 
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-08%20at%2013.40.39.png" height="400">
 
 
 
