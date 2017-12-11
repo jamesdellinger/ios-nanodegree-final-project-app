@@ -38,13 +38,13 @@ allows the user to edit their saved recipe's title, photo, ingredients, and or p
 
 This app has the added capability of letting search for and discover brand new recipes by searching
 for and watching YouTube videos. Tapping "Discover Recipes" takes the user to a search screen
-where they can search for YouTube cooking videos by keyword. Tapping search sends the keyword
+where they can search for YouTube cooking videos by keyword.
+
+Tapping search sends the keyword
 query to YouTube's data API, which returns a list of videos whose title and or description match the
-user's search.
+user's search. These results are displayed in a table view:
 
-These results are displayed in a table view:
-
-<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.39.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.44.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.49.png" height="400"> <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.57.png" height="400">
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.39.png" height="350">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.44.png" height="350">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.49.png" height="350">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.57.png" height="350">
 
 
 
