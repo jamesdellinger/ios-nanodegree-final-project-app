@@ -226,7 +226,7 @@ class AddRecipeViewController: UIViewController, NSFetchedResultsControllerDeleg
         
         // Make sure keyboard is dimissed if it had been visible (user
         // had been editing the title text field) when user tapped "Save."
-        ingredientsTextView.resignFirstResponder()
+        recipeTitleTextField.resignFirstResponder()
         
         // If user came to this screen from either the Recipe Collection view, or
         // YouTube video view controllers, the user is trying to add a brand new
@@ -248,6 +248,7 @@ class AddRecipeViewController: UIViewController, NSFetchedResultsControllerDeleg
      
             if let previouslySavedRecipeList = recipeFetchedResultsController.fetchedObjects, previouslySavedRecipeList.count > 0 {
                 displayDuplicateRecipeAlert()
+                
                 // After displaying the pop-up alert, return, so that a duplicate
                 // recipe is not saved to Core Data.
                 return

@@ -17,7 +17,18 @@ Tapping "+" takes the user to a screen where they can enter their recipe's name,
 directions, as well as take a photo of their dish using their iPhone's camera, or choose a photo from their
 photo album:
 
-<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-08%20at%2013.40.39.png" height="400">
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2015.40.42.png" height="400">
+
+After entering their recipe's info (all fields are optional except for the recipe's title), tapping "Save"
+saves the recipe in Core Data on the user's iPhone and navigates the user back to the recipes
+screen, where their newly created recipe is now visible:
+
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2015.41.37.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2015.41.53.png" height="400">
+
+The app keeps track of recipe's by their names. Each recipe must have a unique name, and if the
+user tries to add a recipe with a duplicate title, the app will prevent this from happening:
+
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2015.41.37.png" height="400"> 
 
 
 
