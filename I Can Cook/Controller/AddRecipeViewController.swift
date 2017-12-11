@@ -661,6 +661,10 @@ extension AddRecipeViewController {
         alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .`default`, handler: { _ in
             print("The \"Duplicate Recipe\" alert occured.")
         }))
-        self.present(alert, animated: true, completion: nil)
+        self.present(alert, animated: true, completion: {
+            // Clear the recipe title text field, so user can enter
+            // a unique title, if they desire.
+            self.recipeTitleTextField.text = ""
+        })
     }
 }
