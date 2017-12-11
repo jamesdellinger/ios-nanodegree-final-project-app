@@ -382,7 +382,7 @@
                                                     <rect key="frame" x="-1" y="-1" width="188" height="188"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="tgc-XV-viv">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="tgc-XV-viv">
                                                     <rect key="frame" x="16" y="143" width="156" height="21"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Label">
@@ -565,6 +565,6 @@
         <image name="youtube" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ObO-qK-fDn"/>
+        <segue reference="Eqk-PQ-vw1"/>
     </inferredMetricsTieBreakers>
 </document>

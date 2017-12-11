@@ -40,16 +40,23 @@ This app has the added capability of letting search for and discover brand new r
 for and watching YouTube videos. Tapping "Discover Recipes" takes the user to a search screen
 where they can search for YouTube cooking videos by keyword.
 
-Tapping search sends the keyword
-query to YouTube's data API, which returns a list of videos whose title and or description match the
-user's search. These results are displayed in a table view:
+Tapping search sends the keyword query to YouTube's data API, which returns a list of videos whose title
+and or description match the user's search. These results are displayed in a table view:
 
 <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.39.png" height="350">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.44.png" height="350">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.49.png" height="350">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.14.57.png" height="350">
 
 When the user selects a particular YouTube video from the table view, a screen will be displayed that
 automatically starts playing the YouTube video in-line inside the screen:
 
-<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.07.51.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.07.58.png" height="400">
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.12.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.19.png" height="400">
+
+(In-line YouTube video playback was achieved by using YouTube's youtube-ios-player-helper library
+available at https://github.com/youtube/youtube-ios-player-helper.)
+
+The user can add the recipe described in a particular YouTube video by tapping the "Add To Your Recipes"
+button. Doing this takes the user to the "Add Recipe" screen, where
+
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.07.51.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.07.58.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.07.58.png" height="400">
 
 
 
