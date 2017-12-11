@@ -28,7 +28,9 @@ screen, where their newly created recipe is now visible:
 The app keeps track of recipe's by their names. Each recipe must have a unique name, and if the
 user tries to add a recipe with a duplicate title, the app will prevent this from happening:
 
-<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2015.41.37.png" height="400"> 
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2015.48.14.png" height="400">
+
+
 
 
 
