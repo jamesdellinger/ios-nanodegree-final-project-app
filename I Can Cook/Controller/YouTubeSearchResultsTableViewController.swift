@@ -119,7 +119,7 @@ extension YouTubeSearchResultsTableViewController: UITableViewDelegate, UITableV
         destinationController.youtubeVideo = selectedYoutubeVideo
         
         // Push the destination view controller
-        self.navigationController?.pushViewController(destinationController, animated: true)
+        navigationController?.pushViewController(destinationController, animated: true)
     }
 }
 
@@ -176,7 +176,11 @@ extension YouTubeSearchResultsTableViewController: UISearchBarDelegate {
 extension YouTubeSearchResultsTableViewController {
     
     func displayErrorAlert(errorMessage: String?) {
-        let alert = UIAlertController(title: "Connection Error", message: errorMessage, preferredStyle: .alert)
+        // Error messages may be verbose and technical, so print them out and display
+        // a more readable error message inside the pop-up that the user sees.
+        print(errorMessage!)
+        
+        let alert = UIAlertController(title: "Connection Error", message: "Unable to retrive results from YouTube.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("Dismiss", comment: "Default action"), style: .`default`, handler: { _ in
             print("The \"Connection Error\" alert occured.")
         }))

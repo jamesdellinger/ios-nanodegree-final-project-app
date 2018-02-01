@@ -23,6 +23,7 @@
 		1A78792F1FDD438000A633BC /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A78792E1FDD438000A633BC /* YTPlayerView.m */; };
 		1A7879341FDD525D00A633BC /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A7879331FDD525D00A633BC /* Assets.bundle */; };
 		1A7879381FDD5E2A00A633BC /* AddToYourRecipesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7879371FDD5E2A00A633BC /* AddToYourRecipesButton.swift */; };
+		1A78793A1FDE432400A633BC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7879391FDE432400A633BC /* Reachability.swift */; };
 		1A90011C1FD8A884004314F4 /* RecipeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A90011B1FD8A884004314F4 /* RecipeCollectionViewController.swift */; };
 		1A90011E1FD8B8C9004314F4 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A90011D1FD8B8C9004314F4 /* AddRecipeViewController.swift */; };
 		1AA3166D1FD753FA0036F6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3166C1FD753FA0036F6E3 /* AppDelegate.swift */; };
@@ -50,6 +51,7 @@
 		1A78792E1FDD438000A633BC /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		1A7879331FDD525D00A633BC /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
 		1A7879371FDD5E2A00A633BC /* AddToYourRecipesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToYourRecipesButton.swift; sourceTree = "<group>"; };
+		1A7879391FDE432400A633BC /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		1A90011B1FD8A884004314F4 /* RecipeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewController.swift; sourceTree = "<group>"; };
 		1A90011D1FD8B8C9004314F4 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
 		1AA316691FD753FA0036F6E3 /* I Can Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Can Cook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 			children = (
 				1AA3166C1FD753FA0036F6E3 /* AppDelegate.swift */,
 				1A3707821FDA8BF2002870FD /* GrandCentralDispatchPerformUpdates.swift */,
+				1A7879391FDE432400A633BC /* Reachability.swift */,
 				1AA316801FD878710036F6E3 /* Model */,
 				1AA316811FD878770036F6E3 /* View */,
 				1AA316821FD878850036F6E3 /* Controller */,
@@ -235,6 +238,7 @@
 			files = (
 				1A90011E1FD8B8C9004314F4 /* AddRecipeViewController.swift in Sources */,
 				1A3707831FDA8BF2002870FD /* GrandCentralDispatchPerformUpdates.swift in Sources */,
+				1A78793A1FDE432400A633BC /* Reachability.swift in Sources */,
 				1A37077E1FD9BA55002870FD /* Recipe+CoreDataClass.swift in Sources */,
 				1A7879381FDD5E2A00A633BC /* AddToYourRecipesButton.swift in Sources */,
 				1A78792F1FDD438000A633BC /* YTPlayerView.m in Sources */,

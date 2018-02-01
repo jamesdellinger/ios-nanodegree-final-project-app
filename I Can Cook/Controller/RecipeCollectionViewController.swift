@@ -65,11 +65,7 @@ class RecipeCollectionViewController: UIViewController, UICollectionViewDelegate
         // Configure the image and text that will be displayed if user hasn't saved
         // any recipes yet.
         configureEmptyCollectionImageAndText()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-
+        
         // Reveal the empty collection imageview and label if there are no saved recipes.
         // Indicates to users they can add a recipe by tapping the "+" button in the
         // upper right-hand corner.
@@ -78,13 +74,16 @@ class RecipeCollectionViewController: UIViewController, UICollectionViewDelegate
         }
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(true)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+
+        // Determine whether or not user has saved any recipes
+        performRecipeFetchRequest(recipeFetchedResultsController)
         
-        // Remove the empty collection imageview and label when user leaves the
-        // Collection View screen. Only will be removed if they had been displayed
-        // when user first arrived at collection view (if there weren't any recipes saved).
-        if recipeFetchedResultsController.fetchedObjects?.count == 0 {
+        // Remove the empty collection imageview and label if and only if they are
+        // being displayed next time user arrives back at this screen, and if user has
+        // one or more recipes saved.
+        if let recipes = recipeFetchedResultsController.fetchedObjects, let emptyCollectionStackView = emptyCollectionStackView, recipes.count > 0 {
             emptyCollectionStackView.removeFromSuperview()
         }
     }
@@ -265,7 +264,7 @@ extension RecipeCollectionViewController {
             controller.delegate = self
             
             // Finally, push the recipe details view controller.
-            self.navigationController?.pushViewController(controller, animated: true)
+            navigationController?.pushViewController(controller, animated: true)
         }
     }
 }

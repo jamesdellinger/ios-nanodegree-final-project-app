@@ -30,7 +30,7 @@ class YouTubeVideoViewController: UIViewController {
         navigationController?.isNavigationBarHidden = false
         
         // Set the delegate for the YTPlayerViewDelegate protocol.
-        self.youtubePlayer.delegate = self
+        youtubePlayer.delegate = self
         
         if let youtubeVideo = youtubeVideo {
             
@@ -44,6 +44,14 @@ class YouTubeVideoViewController: UIViewController {
             // Set video title label text to title of the YouTube video
             videoTitleLabel.text = youtubeVideo.title
         }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+
+        // Test connection to www.youtube.com and display an error alert pop-up
+        // if network connection is unsuccessful.
+        testNetworkConnectionToYouTube()
     }
     
     // MARK: Add YouTube video to recipes
@@ -67,6 +75,46 @@ extension YouTubeVideoViewController: YTPlayerViewDelegate {
     
     // Necessary for YouTube Video playback to initiate
     func playerViewDidBecomeReady(_ playerView: YTPlayerView) {
-        self.youtubePlayer.playVideo()
+        youtubePlayer.playVideo()
+    }
+}
+
+// MARK: Test network connection to Youtube.com
+
+extension YouTubeVideoViewController {
+    
+    func testNetworkConnectionToYouTube() {
+        
+        do {
+            Network.reachability = try Reachability(hostname: "www.youtube.com")
+            do {
+                try Network.reachability?.start()
+            } catch let error as Network.Error {
+                print(error)
+                // Display alert pop-up to user if unable to make network
+                // connection to YouTube.
+                displayConnectionErrorAlert()
+            } catch {
+                print(error)
+                displayConnectionErrorAlert()
+            }
+        } catch {
+            print(error)
+            displayConnectionErrorAlert()
+        }
+    }
+}
+
+// MARK: Connection Error Alert
+
+extension YouTubeVideoViewController {
+    
+    func displayConnectionErrorAlert() {
+
+        let alert = UIAlertController(title: "Connection Error", message: "Unable to connect to YouTube to play this video.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString("Dismiss", comment: "Default action"), style: .`default`, handler: { _ in
+            print("The \"Connection Error\" alert occured.")
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
 }
