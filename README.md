@@ -69,8 +69,8 @@ To build and run this app:
 1. Clone or download this repository.
 2. Open the file 'I Can Cook.xcodeproj' in Xcode and press the Run button.
 
-### Project Evaluation
+### Project Grading and Evaluation
 
-[Project Review]()
+[Project Review](https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/ios-nanodegree-final-project-app-review.pdf)
 
 [Project Grading Rubric](https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/ios-nanodegree-final-project-app-specs-and-rubric.pdf)
