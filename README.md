@@ -4,7 +4,7 @@
 
 ![Platform iOS](https://img.shields.io/badge/nanodegree-iOS-blue.svg)
 
-This repository contains the final project app for Udacity's iOS Nanodegree.
+This repository contains my final project app for Udacity's iOS Nanodegree.
 
 'I Can Cook' provides a simple, user-friendly interface for creating, editing, and easily accessing all of your
 recipes. Think of it as recipe notebook for the smartphone era.
