@@ -1,12 +1,12 @@
 <img src="https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/nd003.png" alt="iOS Developer Nanodegree logo" height="70" >
 
-# Final Project: "I Can Cook" App
+# iOS Developer Nanodegree Final Project: 'I Can Cook' App
 
 ![Platform iOS](https://img.shields.io/badge/nanodegree-iOS-blue.svg)
 
 This repository contains the final project app for Udacity's iOS Nanodegree.
 
-"I Can Cook" provides a simple, user-friendly interface for creating, editing, and easily accessing all of your
+'I Can Cook' provides a simple, user-friendly interface for creating, editing, and easily accessing all of your
 recipes. Think of it as recipe notebook for the smartphone era.
 
 On first-time app launch, a friendly hint graphic shows the user how to add their first recipe:
@@ -68,3 +68,9 @@ right alongside their other saved recipes:
 To build and run this app:
 1. Clone or download this repository.
 2. Open the file 'I Can Cook.xcodeproj' in Xcode and press the Run button.
+
+### Project Evaluation
+
+[Project Review]()
+
+[Project Grading Rubric](https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/ios-nanodegree-final-project-app-specs-and-rubric.pdf)
