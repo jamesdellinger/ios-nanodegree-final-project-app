@@ -1,8 +1,6 @@
-<img src="https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/nd003.png" alt="iOS Developer Nanodegree logo" height="70" >
-
 # iOS Developer Nanodegree Final Project: 'I Can Cook' App
 
-![Platform iOS](https://img.shields.io/badge/nanodegree-iOS-blue.svg)
+<img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/iosndlogo.jpg" alt="iOS Developer Nanodegree logo" height="100" >
 
 This repository contains my final project app for Udacity's iOS Nanodegree.
 
@@ -64,13 +62,11 @@ right alongside their other saved recipes:
 
 <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.35.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.52.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.31.16.png" height="400">
 
-
-To build and run this app:
+## To build and run this app
 1. Clone or download this repository.
 2. Open the file 'I Can Cook.xcodeproj' in Xcode and press the Run button.
 
-### Project Grading and Evaluation
+## Project Grading and Evaluation
+* [Project Review](https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/ios-nanodegree-final-project-app-review.pdf)
 
-[Project Review](https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/ios-nanodegree-final-project-app-review.pdf)
-
-[Project Grading Rubric](https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/ios-nanodegree-final-project-app-specs-and-rubric.pdf)
+* [Project Grading Rubric](https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/ios-nanodegree-final-project-app-specs-and-rubric.pdf)
