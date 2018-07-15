@@ -1,9 +1,9 @@
-# iOS Developer Nanodegree Final Project: 'I Can Cook' App
+# iOS Developer Nanodegree Final Project: *I Can Cook* App
 *Conceiving, designing, prototyping, and finally implementing a unique full-fledged iOS app from scratch. Putting into use all concepts learned during the nanodegree, including UIKit classes, RESTful API calls, thread concurrency, and data persistence.*
 
 <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/iosndlogo.jpg" alt="iOS Developer Nanodegree logo" height="100" >
 
-This repository contains my final project app for Udacity's [iOS Nanodegree](https://www.udacity.com/course/ios-developer-nanodegree--nd003). Titled 'I Can Cook,' my app provides a simple, user-friendly interface for creating, editing, and easily accessing all of your
+This repository contains my final project app for Udacity's [iOS Nanodegree](https://www.udacity.com/course/ios-developer-nanodegree--nd003). Titled *I Can Cook*, my app provides a simple, user-friendly interface for creating, editing, and easily accessing all of your
 recipes. Think of it as recipe notebook for the smartphone era.
 
 ## App Walkthrough
