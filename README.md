@@ -40,7 +40,7 @@ Tapping search sends the keyword query to YouTube's data API, which returns a li
 
 8. The user can add the recipe described in a particular YouTube video by tapping the "Add To Your Recipes" button. Doing this takes the user to the "Add Recipe" screen, where the recipe title and image fields are pre-populated with the YouTube video's title and thumbnail image, respectively.
 
-After adding the ingredients and preparation directions, tapping "Save" saves the recipe in Core Data. The user is also taken back to the screen where the YouTube video is playing. When the user returns to their recipes screen, the recipe they added from YouTube is displayed right alongside their other saved recipes:
+  After adding the ingredients and preparation directions, tapping "Save" saves the recipe in Core Data. The user is also taken back to the screen where the YouTube video is playing. When the user returns to their recipes screen, the recipe they added from YouTube is displayed right alongside their other saved recipes:
 
 <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.35.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.52.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.31.16.png" height="400">
 
