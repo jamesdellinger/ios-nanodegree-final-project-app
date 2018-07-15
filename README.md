@@ -44,7 +44,7 @@ This repository contains my final project app for Udacity's [iOS Nanodegree](htt
 
     <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.35.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.21.52.png" height="400">    <img src="https://github.com/jamesdellinger/ios-nanodegree-final-project-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-12-10%20at%2016.31.16.png" height="400">
 
-## To build and run this app
+## Building and Running This App
 1. Clone or download this repository.
 2. Open the file 'I Can Cook.xcodeproj' in Xcode and press the Run button.
 
